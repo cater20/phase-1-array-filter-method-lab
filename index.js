@@ -1,14 +1,4 @@
 
-
-//function findMatching(drivers,string){
-
-//{
-    //return drivers.filter((driver)=>drivers.toLowerCase()=== string.toLowerCase());
-//}
-//}
-//const fuzzyMatch=(drivers,string)=>{
-//    return drivers.filter((driver)) => drivers.chartAt(0)===string.chartAt(0)
-//}
 const findMatching =(names, returnDrivers)=>{
     return names.filter((filterdNames) => 
     filterdNames.toLowerCase() === returnDrivers.toLowerCase());
